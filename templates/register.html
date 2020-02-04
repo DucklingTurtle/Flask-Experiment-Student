@@ -6,6 +6,19 @@
             <fieldset class="form-group">
                 <legend class="border-bottom mb-4">Student Sign Up</legend>
                 <div class="form-group">
+                    {{ form.student_id.label(class="form-control-label") }}
+                    {% if form.student_id.errors %}
+                        {{ form.student_id.label(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.student_id.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.student_id(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+                <div class="form-group">
                     {{ form.name.label(class="form-control-label") }}
                     {% if form.name.errors %}
                         {{ form.name.label(class="form-control form-control-lg is-invalid") }}
@@ -16,6 +29,32 @@
                         </div>
                     {% else %}
                         {{ form.name(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+                <div class="form-group">
+                    {{ form.focus1.label(class="form-control-label") }}
+                    {% if form.focus1.errors %}
+                        {{ form.focus1.label(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.focus1.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.focus1(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+                <div class="form-group">
+                    {{ form.focus2.label(class="form-control-label") }}
+                    {% if form.focus2.errors %}
+                        {{ form.focus2.label(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.focus2.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.focus2(class="form-control form-control-lg") }}
                     {% endif %}
                 </div>
                 <div class="form-group">

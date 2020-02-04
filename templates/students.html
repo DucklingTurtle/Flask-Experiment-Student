@@ -1,6 +1,12 @@
 {% extends "layout.html" %}
 {% block content %}
-    <h1>Students</h1>
+    <h1>Student's Page</h1>
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-light"><a href="{{ url_for('student_register') }}">Register for Test</a></li>
+        <li class="list-group-item list-group-item-light">Check Assigned Test Hour</li>
+        <li class="list-group-item list-group-item-light">Check If Signed Up</li>
+        <li class="list-group-item list-group-item-light">Help</li>
+    </ul>
 {% endblock content %}
 {% block sidebar %}
  <h3>Our Sidebar</h3>
