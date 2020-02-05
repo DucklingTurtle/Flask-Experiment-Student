@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "student-assigner",
+  "private_key_id": "9f46fd515154c07325b483ef0aa114b35de0de0b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDbNUwWiTgs/vKT\nfG4ZIrrwyiQXJr7jaSsPWCqHVqhKkjD+NtiDwVF6fE9R5+SbFYRj8DL9xpfQDo0r\nU5xsnafqF9OerwAtL6FHdVVWhFBs0Amquljft33Ywx7q5l4DXIyC7yQHReADbYCP\nYSSJcZ+A/F3FAAEQggCTxo9LrhA4QAM1TxS4KI8zg5mKAzyi/LmOZcGpBRDqUyxj\nTIZ0ckprNuWM6pSEWxq+ymnHiYD8yZc30SMe2V0QYE02b8TCB5o3sfWn/+wTMWPK\nVTftgTlIEO7rTjUoB7W/tMbLalJ8kfl4OA4BH9OouIfuA1BGO/WNUptKFRpC9a1T\nXja2YCyHAgMBAAECggEAR/Tp4ifvGc4iwMlCttuQtAQW7saYOLxIF0RgyYZnvfrZ\nPEmyryVhYqy1uPQ/Na1NhSTPCEENio2MR6GtonXqLczeeaOGkk6lSXi5p6nNYLq1\nwaZkECQCmooKdx9h0wapVT28/OoyC84BOo+v17JFoqi0+zryHoIeQGQYm8Yqqtu0\nwuErRax9pyqWLh+NPjyc6l/Bwf106xMtvRMlVaYO/YEtdyY0Z3AeN0bbMkvjodxY\n/OThW7GxnnBS+pKkx9yggIEcWBbjIXwY52BeTI+pclGpJo+LozLN8JTOpatSk625\nQaiAyxr5ILVfk0mgbWpkF+mb4qSydYH/cJISsHxE0QKBgQD32JC3ic+8CGm7YiZw\nX0NSAHMNLBUilfb6RQ+RcZl5Jb4zkjz4mUKFE9fRI6eBCBsKa7FoKjVn1aAy/0HS\nM/CtLY8iAQp0m/3oo607fYUcpq9K0aG5doEOWeZKgJJX89OS1zJs+Iyk0TRTNBrZ\nUWDl3gQacG0HZ90tzg+dNRaM3wKBgQDia4kum29iCo1jAiGoV3SudBsLMV7+I1T2\nglQb8xxaX7t3G2sbQxzNIMEuxyQObcxNHmaOBvETocFuIk/PX456jNwYpQ1Yzq+C\nAvQf73GfQSiTcynqmjucuxtzWZZ9wMa4OKPUzV1JPUcDj3J+Xplti/Gs75fCAZwf\nStZZZ/otWQKBgQC5QuyKBT1+tFs0cl2BSfQsa6GUiwsRWz/OO6kzctLht9DBA+MH\ngKg0iWydLCWdUc3EsFNgJYzeHNUuyZcN5T1WdeOz60tBdwkIyLBI8754eDA3oRNe\narJ1Y8W8kvbRP7U64hkTU4bt/GM8fopDP41KxfYTPU6CZqTyBEGvpWtByQKBgQCI\nKm28tsOcbYYr9dsx9y53v+GHsLBVHAB7o1Nb36+8dfgyoC2gnpLSlhE3xZFckBGe\ni1rXrTsMOGowhrgCmZABCXdP5usI7nvEL2yLTB/Dy5bQXiDmMs0I68mNbGJBzE51\n+bIlR0ADzLNJY9pSPyf8Jn44J3rXtMokU4hnCk39OQKBgQDAOJkAi8p83a2t8rxl\n9yqInmUTaRuEFkaAHF1bjVR3Eqoo27TobwT+WC8Kl3s3ilJgg1gMxhEF+JyLcTg3\nGxQH9r5wCJ13X6sfXhfQLFf8MOY/mSUP13rhhq/j6csbK0ulabkjG583+rI9Kjke\nKidEclNo0r2GfzO3Ow1TBmAAMQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "google-database@student-assigner.iam.gserviceaccount.com",
+  "client_id": "118007067309097404061",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/google-database%40student-assigner.iam.gserviceaccount.com"
+}
