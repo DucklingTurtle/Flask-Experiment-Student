@@ -1,6 +1,3 @@
-import os
-os.path.join(os.path.curdir, 'google-database.json')
-
 import Teacher_Register_Sheet, Student_Register_Sheet
 from flask import Flask, render_template, url_for, flash, redirect
 from forms import RegistrationFormStudent, RegistrationFormTeacher
