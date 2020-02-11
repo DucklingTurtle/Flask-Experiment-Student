@@ -3,9 +3,11 @@ from flask import Flask, render_template, url_for, flash, redirect
 from forms import RegistrationFormStudent, RegistrationFormTeacher
 
 # google sheets
-s_r = Student_Register_Sheet.client.open("Student_Register_Database").sheet1
-t_r = Teacher_Register_Sheet.client.open("Teacher_Register_Database").sheet1
-
+try:
+    s_r = Student_Register_Sheet.client.open("Student_Register_Database").sheet1
+    t_r = Teacher_Register_Sheet.client.open("Teacher_Register_Database").sheet1
+except:
+    flash("Error importing database")
 
 app = Flask(__name__)
 app.config["SECRET_KEY"] = "d2c3113ee16531331a94a16f82b0cd1e"
