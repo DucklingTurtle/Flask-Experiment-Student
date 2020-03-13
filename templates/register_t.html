@@ -19,17 +19,49 @@
                     {% endif %}
                 </div>
                 <div class="form-group">
-                    {{ form.focus.label(class="form-control-label") }}
-                    {% if form.focus.errors %}
-                        {{ form.focus(class="form-control form-control-lg is-invalid") }}
+                    {{ form.focus1.label(class="form-control-label") }}
+                    {% if form.focus1.errors %}
+                        {{ form.focus1(class="form-control form-control-lg is-invalid") }}
                         <div class="invalid-feedback">
-                            {% for error in form.focus.errors %}
+                            {% for error in form.focus1.errors %}
                                 <span>{{ error }}</span>
                             {% endfor %}
                         </div>
                     {% else %}
-                        {{ form.focus(class="form-control form-control-lg") }}
+                        {{ form.focus1(class="form-control form-control-lg") }}
                     {% endif %}
+                </div>
+                <div class="form-group">
+                    {{ form.focus2.label(class="form-control-label") }}
+                    {% if form.focus2.errors %}
+                        {{ form.focus2(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.focus2.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.focus2(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+                <p>Choose days available</p>
+                <div class="form-group">
+                    Monday<input type="checkbox" value="1" name="days_checkbox">
+                    Tuesday<input type="checkbox" value="2" name="days_checkbox">
+                    Wednesday<input type="checkbox" value="3" name="days_checkbox">
+                    Thursday<input type="checkbox" value="4" name="days_checkbox">
+                    Friday<input type="checkbox" value="5" name="days_checkbox">
+                    Monday<input type="checkbox" value="6" name="days_checkbox">
+                    Tuesday<input type="checkbox" value="7" name="days_checkbox">
+                    Wednesday<input type="checkbox" value="8" name="days_checkbox">
+                    Thursday<input type="checkbox" value="9" name="days_checkbox">
+                    Friday<input type="checkbox" value="10" name="days_checkbox">
+                </div>
+                <p>Hours Preferred</p>
+                <div class="form-group">
+                    9 AM - 11 AM<input type="checkbox" value="1" name="hours_checkbox">
+                    11 AM - 1 PM<input type="checkbox" value="2" name="hours_checkbox">
+                    1 PM - 3 PM<input type="checkbox" value="3" name="hours_checkbox">
                 </div>
                 <div class="form-group">
                     {{ form.email.label(class="form-control-label") }}

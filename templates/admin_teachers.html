@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>Admin - Teachers Signed Up</h1>
+        <table style="width:100%">
+            <tr>
+                <td>Name</td>
+                <td>Focus 1</td>
+                <td>Focus 2</td>
+                <td>Days</td>
+                <td>Hours</td>
+                <td>Email</td>
+            </tr>
+            {% for teacher in teachers_list %}
+                <tr>
+                    <td>{{ teacher.name }}</td>
+                    <td>{{ teacher.focus1 }}</td>
+                    <td>{{ teacher.focus2 }}</td>
+                    <td>{{ teacher.days_avail }}</td>
+                    <td>{{ teacher.hours }}</td>
+                    <td>{{ teacher.email }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+{% endblock %}

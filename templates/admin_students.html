@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>Admin - Students Signed Up</h1>
+        <table style="width:100%">
+            <tr>
+                <td>Name</td>
+                <td>Focus 1</td>
+                <td>Focus 2</td>
+                <td>Email</td>
+            </tr>
+            {% for student in students_list %}
+                <tr>
+                    <td>{{ student.name }}</td>
+                    <td>{{ student.focus1 }}</td>
+                    <td>{{ student.focus2 }}</td>
+                    <td>{{ student.email }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+{% endblock %}
